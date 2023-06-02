@@ -31,7 +31,7 @@ class FileService {
   }
 
   getPath (req, file) {
-    return req.filePath + '\\' + file.user + '\\' + file.path
+    return req.filePath + '/' + file.user + '/' + file.path
   }
 }
 
